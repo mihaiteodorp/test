@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, nav, main, footer { padding: 20px; text-align: center; }
+        nav { background: #f4f4f4; }
+        footer { background: #eee; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="display: inline; margin-right: 20px;"><a href="#home">Home</a></li>
+            <li style="display: inline; margin-right: 20px;"><a href="#services">Services</a></li>
+            <li style="display: inline;"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Main Content</h2>
+        <p>This is the main area where you can put your own content.</p>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024 by Your Name</p>
+    </footer>
+</body>
+</html>
